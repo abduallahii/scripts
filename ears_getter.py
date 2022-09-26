@@ -1,6 +1,6 @@
 from ftplib import FTP
 import os
-servers = {'sss': {'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'},'MNP':{'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'},'bulk' : {'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'}}
+servers = {'s': {'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'},'s1':{'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'},'s2' : {'ip':'192.168.43.160','username':'target','password':'123456' ,'path' :'/home/target/test','package':'testtest.text'}}
 
 for server in servers :
     print ('intialaizing connection to ' + servers[server]['ip'] + '.....')

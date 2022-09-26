@@ -9,7 +9,7 @@ for line in f :
 	if listing[0:2] == "01" :
 		f1.write(listing[1:11] + ' ')
 		f2.write(listing[1:11] + ' ') 
-	elif listing[0:4] == "Voda" or listing[0:4] == "Mobi" or listing[0:2] == "TE":
+	elif listing[0:4] == "***" or listing[0:4] == "***" or listing[0:2] == "****":
 		f1.write(listing[0:4] + '\n') 
 		f2.write(listing[0:4] + '\n') 
 
